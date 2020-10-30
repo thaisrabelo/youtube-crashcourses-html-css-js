@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  background: url(./img/Frame\ 1.png) no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 160px;
+  background: #37B843;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header img{
+  height: 60px;
+  width: 300px;
+  float: left;
+}
+
+header nav{
+  float: right;
+}
+header nav ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+header nav ul li{
+  list-style: none;
+}
+header nav ul li a{
+  height: 60px;
+  line-height: 60px;
+  padding: 0px 20px;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  letter-spacing: 5px;
+}
+header nav ul li a:hover,
+header nav ul li a.active{
+  color: #000;
+  background-color: #fff;
+}
+
+.menu-toggle{
+  color: #000;
+  float: right;
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 1080px)
+{
+  header{
+    padding: 0 20px;
+  }
+  .menu-toggle{
+    display: block;
+  }
+  header nav{
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background: #37B843;
+    top: 60px;
+    left: -100%;
+    transition: 0.5s;
+  }
+  header nav.active{
+    left: 0;
+  }
+  header nav ul{
+    display: block;
+    text-align: center;
+  }
+  header nav ul li a{
+    border-bottom: 1px solid rgba(0,0,0,.2);
+  }
+
+
+
+
+
+
+}
