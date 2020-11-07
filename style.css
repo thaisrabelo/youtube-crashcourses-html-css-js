@@ -29,6 +29,7 @@ ul {
 li {
     margin: 0.5rem 0;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 li a {
