@@ -1,0 +1,31 @@
+.index{
+  background: url(../img_portfolio/background.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover ;
+}
+.sobre{
+  background: url(../img_portfolio/background_sobre.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover ;
+}
+.hello{
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  right: 0;
+  margin: 200px;
+}
+
+.hello p{
+  float: right;
+  font-size: 40px;
+  max-width: 700px;
+  color: #663399;
+}
+.saudacao span{
+  float: right;
+  margin-right: 600px;
+  font-size: 4em;
+  max-width: 100px;
+  line-height: 120px;
+  color: #663399;
+}
