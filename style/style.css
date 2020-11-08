@@ -58,3 +58,13 @@ label{
   position: absolute;
   z-index: 1;
 }
+
+.social_media{
+  /* position: absolute;
+  bottom: 50px;
+  left: 30px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 850px;
+}
